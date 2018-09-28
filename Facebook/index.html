@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" type="text/css" href="stylesheet-index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+  <title>Facebook - entre ou cadastre-se</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<nav class="navbar navbar-expand-lg" style="
+background-color: #3D5A99; 
+height: 120px;
+box-shadow: 1px 1px 10px #1a1a1a;
+border-bottom-style:outset;
+border-width: 1px;">
+
+<div class="col-2"></div>
+
+<div class="col-1">
+  <a class="navbar-brand" href="index.html" style=
+  "font-family:facebook;
+  color:white;
+  font-size:65px;
+  letter-spacing:0.2px; 
+  ">facebook</a>
+</div>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+
+<div class="col-4"></div>
+
+<div class="col-5">
+  <form class="form-inline">
+    <div class="form-group mb-2 text-white" style="font-size: 18px;border:0px;">
+      <div class="col">
+        <div class="row">
+          <label for="inputEmail">Email ou telefone</label>
+        </div>
+        <div class="row">
+          <input type="email" class="form-control" id="inputEmail" style="border-radius: 0px;">
+        </div>
+      </div>
+    </div>
+    <div class="form-group mx-sm-3 mb-2 text-white" style="font-size: 18px;">
+      <div class="col">
+        <div class="row mt-4">
+          <label for="inputPassword">Senha</label>
+        </div>
+        <div class="row">
+          <input type="password" class="form-control" id="inputPassword" style="border-radius: 0px">
+        </div>
+        <div class="row">
+          <a href="" style="color:#859FCA;">Esqueceu a conta?</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <button href="" id="entrar" class=" mt-3 mx-3 btn btn-outline-primary text-white " style="
+      background-color:#4267b2;
+      border:solid 0.2px black;
+      border-radius: 0px;"><b>Entrar</b>
+    </button> 
+  </div>
+
+</form>
+</div>
+
+</nav>
+
+<body>
+
+  <div class="container col-12" style="background-color:#e9ebee;">
+
+    <div class="row">
+
+      <div class="col-2" style="background-color:"></div>
+      
+      <div class="col-3">
+
+        <div class="row"></div>
+        
+        <div class="row">
+          <b><p class="mt-4 ml-3" style="font-family:Segoe UI;font-size:40px;">Logins recentes</p></b>
+        </div>
+        
+        <div class="row">
+          <p class="ml-3" style="font-family:Segoe UI;font-size:20px;">Clique na sua foto ou adicione uma conta.</p>
+        </div>
+        
+        <div class="card-group">
+
+          <div id="foto" class="card mr-2">
+            <i id="x" class="fas fa-times"></i>
+            <div class="nr">
+              <i id="texto">4</i>
+            </div> 
+            <a href=""><img class="card-img-top" src="imgs/foto.png" style="height:auto"></a>
+            <div class="card-footer"> 
+              <div class="col">
+                <div class="row">
+                  <a href="" class="mx-4 px-2" style="font-size:25px;color: black;text-decoration: none">Ademirinho</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color:#F5F6F7 ">
+            <a href="" data-toggle="modal" data-target="#exampleModal">
+              <i class="fas fa-plus-circle mt-5 py-5 px-4 mx-5"
+              style="font-size:65px;
+              color:#4267B2;
+              height:118px"></i>
+            </a>
+            <div class="col">
+              <div class="row">
+                <a data-toggle="modal" data-target="#exampleModal" 
+                href="" class="mx-4 px-2 mt-5 py-4" style="
+                color:#4267B2;
+                font-size:20px;
+                text-decoration: none">Adicionar Conta
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="col-2" style="background-color:"></div>
+    
+    <div class="col-4">
+
+      <div class="row"></div>
+      
+      <div class="row">
+        <b><p class="mt-4 mx-2" style="font-family:Segoe UI;font-size:40px;">Abra uma conta</p></b>
+      </div>
+      
+      <div class="row">
+        <p class="mx-3" style="font-family:Segoe UI;font-size:20px;">É gratuito e sempre será.</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-5">
+          <input type="text" class="form-control mr-5" style="font-size:24px; " id="firstName" placeholder="Nome" value="">
+        </div>
+        
+        <div class="col-6">
+          <input type="text" class="form-control mr-5" style="font-size:24px; " id="surname" placeholder="Sobrenome" value="">
+        </div>
+      </div>
+
+      <div class="row my-3">
+        <div class="col-11">
+          <input type="text" class="form-control mr-5" style="font-size:24px; " id="email" placeholder="Celular ou email" value="">
+        </div>
+      </div>
+
+      <div class="row my-3">
+        <div class="col-11">
+          <input type="text" class="form-control mr-5" style="font-size:24px; " id="password" placeholder="Nova senha" value="">
+        </div>
+      </div>
+      
+      <div class="row mt-2">
+        <div class="col-11">
+          <p style="font-size: 24px;font-family:Segoe UI">Data de Nascimento</p>
+        </div>
+      </div>
+
+      <div class="row my-2">
+
+        <div class="col-1 mr-2">
+          <select name="dia" class="text-center" style="font-size: 25px;">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+
+        </div>
+
+        <div class="col-2 ml-2 px-4">
+          <select name="mês" class="text-center" style="font-size: 25px;">
+            <option value="Janeiro">Jan</option>
+            <option value="Fevereiro">Fev</option>
+            <option value="Março">Mar</option>
+            <option value="Abril">Abr</option>
+            <option value="Maio">Mai</option>
+            <option value="Junho">Jun</option>
+            <option value="Julho">Jul</option>
+            <option value="Agosto">Ago</option>
+            <option value="Setembro">Set</option>
+            <option value="Outubro">Out</option>
+            <option value="Novembro">Nov</option>
+            <option value="Dezembro">Dez</option>
+          </select> 
+        </div>
+
+        <div class="col-1 mr-5">
+          <select name="ano" class="text-center px-3" style="font-size: 25px;">
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993">1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+            <option value="1990">1990</option>
+          </select>
+        </div>
+        <table id="tabela" class="mx-5" style="color:#3D5A99">
+          <tr>
+            <td><a href="" style="color:#3D5A99">Por que preciso informar minha</a></td>
+          </tr>
+          <tr>
+            <td><a href="" style="color:#3D5A99">data de nascimento?</a></td>
+          </tr>
+        </table>
+
+      </div>
+
+      <div class="row ml-1" style="font-size: 24px;">
+        <input class="my-2" type="radio" name="fem">
+        <label class="mx-1 mb-1" for ="fem">Feminino</label>
+
+        <input class="ml-3 my-2" type="radio" name="masc">
+        <label class="mx-1 mb-1" for ="masc">Masculino</label>
+      </div>
+
+      <div class="row my-1">
+        <table class="mx-3" style="color:#777777; font-size: 13px;">
+          <tr>
+            <td>Ao clicar em Inscreva-se, você concorda com nossos <a href="" style="color: #3D5A99">Termos, </a></td>
+          </tr>
+          <tr>
+            <td><a href="" style="color:#3D5A99">Política de Dados e Política de Cookies.</a> Você pode receber</td>
+          </tr>
+          <tr>
+            <td>notificações por SMS e pode cancelar isso quando quiser.</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="row my-3 mx-1">
+        <button class="btn btn-lg text-white" style="
+        background-color: #669F51; 
+        box-shadow: 1px 5px ##5C8F47;
+        width: 300px;
+        height: 65px;
+        "><b style="
+        text-shadow: 0.5px 0.5px black;
+        font-size: 28px;
+        font-family: verdana">Inscreva-se</b></button>
+      </div>
+
+      <hr>
+
+      <div class="row mx-1">
+        <p style="font-size:20px;color: ##6A6A6A">
+          <a href="" style="color:#3D5A99">Criar uma Página</a> 
+        para uma celebridade, banda ou empresa.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row"style="background-color:white">
+    <div class="bg-light jumbotron-fluid">
+    <div class="col-3"></div>
+    <div class="col-6" style="margin:0% 25% 3.56% 25%">
+      <div class="row my-3 pt-5">
+        <small class="ml-5" style="color: #777777">Português (Brasil)</small>
+        <small class=" mx-1"><a href="" style="color: #4267b2">English (UK)</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Español</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Français (France)</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Italiano</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Deutsch</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">العربية</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">हिन्दी</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">中文(简体)</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">日本語</a></small>
+      </div>
+      <hr>
+      <div class="row mx-5">
+        <small class="mx-1"><a href="" style="color: #4267b2">Inscreva-se</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Entrar</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Messenger</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Facebook Lite</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Celular</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Encontrar amigos</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Pessoas</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Páginas</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Video Interests</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Locais</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Jogos</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Locais</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Marketplace</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Grupos</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Instagram</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Local</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Sobre</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Criar anúncio</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Criar Página</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Desenvolvedores</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Carreiras</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Cookies</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Opções de anúncio</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Termos</a></small>
+        <small class="mx-1"><a href="" style="color: #4267b2">Ajuda</a></small>
+      </div>
+      <div class="row my-3 mx-5">
+        <small style="color: #777777; font-size: 12px">Facebook © 2018</small>
+      </div>
+    </div>
+    <div class="col-3"></div>
+  </div>
+  </div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document" style="width:450px;">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <h3 style="font-family:Segoe UI;">Entrar no Facebook</h3>
+        </div>
+        <form class="mx-3">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ou telefone" style="">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label mx-1" for="exampleCheck1" style="color:#A0A0A0">Lembrar senha</label>
+          </div>
+        </form>
+        <div class="form-row my-4">
+          <a href="#" class="btn btn-block btn-lg text-white" style="
+          background-color:#4267B2;
+          border-radius:0px; "><b>Entrar</b></a>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+          <a href="" style="color:#365899;font-size:18px;">Esqueceu a senha?</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Seu código vai aqui! -->
+
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="assets/js/vendor/jquery-slim.min.js"></script>
+      <script src="assets/js/vendor/popper.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="assets/js/vendor/holder.min.js"></script>
+      <script>
+        Holder.addTheme('thumb', {
+          bg: '#55595c',
+          fg: '#eceeef',
+          text: 'Thumbnail'
+        });
+      </script>
+    </body>
+    </html>

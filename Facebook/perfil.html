@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="stylesheet-feed.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet-perfil.css">
+
+    <title>Ademiro Barbosa</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<nav class="navbar navbar-expand-lg" style="
+    background-color: #3D5A99; 
+    height: 50px;">
+
+  <div class="col-1"></div>
+
+  <div class="col-1" style="">
+        <a href="feed.html"><img src="imgs/logo.png" class="logobranca" style="width:27px; height: auto;"></a>
+   </div>
+   <div  class="col-3" style="">
+        <div class="input-group" style="width:500px;height: 27px;">
+            <input type="text" class="form-control" placeholder="Pesquisar" value="" required>
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <i class="fas fa-search"></i>
+                </span>
+              </div>
+        </div>
+  </div>
+
+  <div class="col-1">
+    
+  </div>
+    
+  <div class="col-5" style="height: 50px;">
+    <div class="nomefoto">
+      <img src="imgs/foto.png" style="width:27px;height:auto;border-radius:27px;">
+    </div>
+    <div class="textofoto">
+      <a href="perfil.html" class="mx-1" style="color:white;font-family: Segoe UI;text-decoration: none;">Ademirinho</a>
+      <a style="color:#36538d;">|</a>
+      <a href="feed.html" class="mx-1" style="color:white;font-family: Segoe UI;text-decoration: none;">Página Inicial</a>
+      <a style="color:#36538d;">|</a>
+      <div class="iconefoto">
+        <div class="dropdown">
+          
+          <a id="botaoamigos" class="btn" href="#" role="button" id="amigos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user-friends" class=""  style="font-size: 1.4em;color:#0D1423"></i>
+          </a>
+
+        
+          <a id="botao" class="btn" href="#" role="button" id="msg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fab fa-facebook-messenger" class="" style="font-size: 1.4em;color:#0D1423"></i>
+          </a>
+
+
+          <a id="botaosino" class="btn" href="#" role="button" id="sino" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bell" class="" style="font-size: 1.4em;color:#0D1423"></i>
+          </a>
+
+          <a id="divisor" style="color:#36538d;" class="">|</a>
+
+          <a id="botaoajuda" class="btn" href="#" role="button" id="ajuda" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-question-circle" style="font-size: 1.4em;color:#0D1423"></i>
+          </a>
+
+
+          <a id="botao" class="btn" href="#" role="button" id="seta" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-caret-down" style="font-size: 1.4em;color:#0D1423"></i>
+          </a>                      
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+</nav>
+
+<body>
+  
+  <div class="container-fluid" style="background-color:#e9ebee;width: 100%">
+    <div class="row">
+      <div class="col-1" style="background-color:"></div>
+      <div class="col-7" style="background-color:">
+        <div class="row">
+          <div id="capa">
+            <div>
+              <img src="imgs/capa.jpg" style="width:111.5%;height:auto;">
+            </div>
+            <div>
+              <div class="row">
+                <a href="#"><img src="imgs/foto.png" id="fotoperfil"></a>
+                <b id="nome">
+                  <a href="#" style="text-decoration: none;"><span style="font-size: 28px;font-family: Segoe UI;color: white;">Ademiro Barbosa</span></a>
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="height:5%%;background-color: white;">
+          <div class="col-2"></div>
+          <div>
+            <div id="linhatempo" class="card">
+              <div class="card-body">
+                <b>
+                  <a class="mb-2"  href="#" style="font-size:19px;color:#4464A0;text-decoration: none;">
+                    Linha do Tempo 
+                    <i style="color:#4464A0" class="fas fa-caret-down"></i>
+                  </a>
+                </b>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body">
+                <b>
+                  <a class="mb-2"  href="#" style="font-size:19px;color:#4464A0;text-decoration: none;">
+                    Sobre 
+                  </a>
+                </b>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body" >
+                <b>
+                  <a class="mb-2"  href="#" style="font-size:19px;color:#4464A0;text-decoration: none;">
+                    Amigos 
+                  </a>
+                </b>
+                <span class="text-muted">666</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body" >
+                <b>
+                  <a class="mb-2"  href="#" style="font-size:19px;color:#4464A0;text-decoration: none;">
+                    Fotos 
+                  </a>
+                </b>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body" >
+                <b>
+                  <a class="mb-2"  href="#" style="font-size:19px;color:#4464A0;text-decoration: none;">
+                    <i class="fas fa-lock"></i>
+                    Arquivo
+                  </a>
+                </b>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body" >
+                <b>
+                  <a class="px-1 mb-2"  href="#" style="font-size:19px;color:#4464A0;text-decoration: none;">
+                    Mais
+                    <i class="fas fa-caret-down"></i>
+                  </a>
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="apresentacao">
+            <div class="card mt-3">
+              <div class="card-body">
+                <div class="row">
+                  <i class="fas fa-globe-americas mx-2 mt-1" style="color:#4464A0;font-size:1.8em"></i>
+                  <span style="font-family: Segoe UI;font-size: 25px;">Apresentação</span>
+                </div>
+                <div class="row">
+                  <i class="fas fa-graduation-cap ml-2 mt-4" style="font-size:1.25em;color: #a0a2a5"></i>
+                  <span class="ml-1 mt-3" style="font-family: Segoe UI;font-size: 19px;">Frequentou <a href="#" style="color:#4464A0">EE Plínio Tarado</a></span>
+                </div>
+                <div class="row">
+                  <i class="fas fa-home mx-2 mt-4" style="font-size:1.2em;color: #a0a2a5"></i>
+                  <span class="mt-3" style="font-family: Segoe UI;font-size: 19px;">Mora em 
+                    <a href="#" style="color:#4464A0">Pindamonhangaba</a>
+                  </span>
+                </div>
+                <div class="row">
+                  <i class="fas fa-map-marker-alt mx-2 mt-4" style="font-size:1.25em;color: #a0a2a5"></i>
+                  <span class="ml-1 mt-3" style="font-family: Segoe UI;font-size: 19px;">De <a href="#" style="color:#4464A0">Virgolândia</a></span>
+                </div>
+                <div class="row">
+                  <i class="fas fa-heart mx-1 mt-4" style="font-size:1.25em;color: #a0a2a5"></i>
+                  <span class="mx-1 mt-3" style="font-family: Segoe UI;font-size: 19px;">Casado com <a href="#" style="color:#4464A0">Maria Rosária</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="card-body">
+                <div class="row mb-2">
+                  <i class="fas fa-image mx-2 mt-1" style="color:#A5D950;font-size:1.8em"></i>
+                  <a href="#" style="font-family: Segoe UI;font-size: 25px;color: black;">Fotos</a>
+                </div>
+                <div class="row">
+                  <a href="" style="text-decoration: none;">
+                    <table>
+                      <tr>
+                        <td>
+                          <img class="mx-2" src="imgs/gato.jpg" style="width:180px;height:120px;">
+                        </td>
+                        <td>
+                          <img class="mx-2" src="imgs/ademiro.jpg" style="width:195px;height:120px;">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img class="mx-2 mt-3" src="imgs/churras.jpg" style="width:180px;height:120px;">
+                        </td>
+                        <td>
+                          <img class="mx-2 mt-3" src="imgs/monza.jpg" style="width:195px;height:120px;">
+                        </td>
+                      </tr>
+                    </table>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="card-body">
+                <div class="row mb-2">
+                  <i class="fas fa-user-friends mx-2 mt-1" style="color:#F50E6B;font-size:1.8em"></i>
+                  <a href="#" style="font-family: Segoe UI;font-size: 25px;color: black;">Amigos · <span class="text-muted">666</span></a>
+                </div>
+                <table>
+                  <tr>
+                    <td>
+                      <div class="card">
+                        <a href="#">
+                          <img class="mx-2" src="imgs/foto2.png" style="width:170px;height:170px;">
+                          <div class="bottom-left" style="color:white;font-size:20px;border: solid 0px;">Klinvers Klonis</div>
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card">
+                        <a href="#">
+                          <img class="mx-2" src="imgs/foto5.png" style="width:170px;height:170px;">
+                          <div class="bottom-left" style="color:white;font-size:20px;border: solid 0px;">Xing Linga</div>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="card">
+                        <a href="#">
+                          <img class="mx-2 mt-3" src="imgs/foto13.png" style="width:170px;height:170px;">
+                          <div class="bottom-left" style="color:white;font-size:20px;border: solid 0px;">Bréqui Pauer</div>
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card">
+                        <a href="#">
+                          <img class="mx-2 mt-3" src="imgs/foto4.png" style="width:170px;height:170px;">
+                          <div class="bottom-left" style="color:white;font-size:20px;border: solid 0px;">Thifany x Ketelen</div>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </table> 
+              </div>
+            </div>
+          </div>
+          <div class="feed">
+            <div id="publi" class="row">
+              <div class="card mt-3">
+                <div class="card-header">
+                  <i class="fas fa-pencil-alt mx-1"> <a class="mx-1" href="#" style="text-decoration: none; color:#6C7076;font-family:tahoma">Criar Publicação</a></i>
+                  <a style="color:#36538d;">|</a>
+                  <i class="fas fa-images mx-1">  <a href="#" style="text-decoration: none; color:#4464A0;font-family:tahoma">Foto/Vídeo</a></i>
+                  <a style="color:#36538d;">|</a>
+                  <i class="fas fa-video mx-1" style="">  <a href="#" style="text-decoration: none; color:#4464A0;font-family:tahoma">Vídeo ao vivo</a></i>
+                  <a style="color:#36538d;">|</a>
+                  <i class="fas fa-flag mx-1" style="">  <a href="#" style="text-decoration: none; color:#4464A0;font-family:tahoma">Acontecimento</a></i>
+                </div>
+                <div class="card-body">
+                  <div class="col-2">
+                  <img id="fotoinput" src="imgs/foto.png" style="width:60px;height:auto;border-radius:60px;">
+                  </div>
+                  <div id="inputfeed" class="input-group">
+                  ​<textarea id="textoinput" placeholder="No que você está pensando, Ademiro?"  id="txtArea" rows="2" cols="35"></textarea>
+                </div>
+                <hr>
+                  <div class="row">
+                    <a href="#" class="btn mx-3" style="height:40px;background-color:#e9ebee;border-radius: 20px;text-decoration:none;color:#4E5259;">
+                      <img src="imgs/icon/imagem.png" style="width:25px;height: auto;">
+                      <b>Foto/Vídeo</b>
+                    </a>
+                  
+                    <a href="#" class="btn mx-2" style="height:40px;background-color:#e9ebee;border-radius: 20px;text-decoration:none;color:#4E5259;">
+                      <img src="imgs/icon/marcar.png" style="width:25px;height: auto;">
+                      <b>Marcar Amigos</b>
+                    </a>
+
+                    <a href="#" class="btn mx-2" style="height:40px;background-color:#e9ebee;border-radius: 20px;text-decoration:none;color:#4E5259;">
+                      <img src="imgs/icon/sentimento.png" style="width:25px;height: auto;">
+                      <b>Sentimento/a...</b>
+                    </a>
+
+                    <a href="#" class="btn mx-1" style="height:40px;background-color:#e9ebee;border-radius: 20px;text-decoration:none;color:#4E5259;">
+                      <img src="imgs/icon/reticen.png" style="width:24px;height: auto;">
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div id="publi2" class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-2">
+                        <img id="perfilfeed" src="imgs/foto.png" style="width:60px;height:auto;border-radius:60px;">
+                        </div>
+                        <b id="nomefeed">
+                        <a href="#" class="mt-3 mx-1" style="color:#365899;font-size:18px;">Ademiro Barbosa</a></b>
+                        <span style="font-size: 18px;">publicou uma <b style="color:#365899;font-size: 18px;">foto</b></span><br>
+                    </div>
+                    <div id="linhafeed" class="row">
+                      <span  class="text-muted" style="margin-left: 7px">2h · <i class="fas fa-user-friends"></i></span>
+                    </div>
+                    <div class="row">
+                      <span class="mx-3" style="margin-top: 12px; font-size: 24px" >Churrasco na casa do tio Arlindo. Farra, pinga e foguete!</span>
+                    </div>
+                      <img class="mt-2" src="imgs/churasco.jpg" style="width:605px; height: auto;">
+                      <div id="react" class="row" style="margin-top: 5px">
+                        <img src="imgs/icon/uau.png" style="width:30px;height:30px;">
+                        <img src="imgs/icon/like.png" style="width:30px;height:30px;">
+                        <span class="text-muted">17</span>
+                      </div>
+                      <hr>
+                      <div id="curtir" class="row">
+                        <i class="far fa-thumbs-up" id="joia" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="like" href="" class="" style="font-size:17px;color:#606770;;text-decoration: none;">Curtir</a>
+                        <div class="col-1"></div>
+                        <i class="far fa-comment-alt mx-1" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="likes" href="#" class="mx-1" style="font-size:17px;color:#606770;;text-decoration: none;">Comentar</a>
+                        <div class="col-1"></div>
+                        <i class="fas fa-share mx-1" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="likes" href="#" class="mx-1" style="font-size:17px;color:#606770;;text-decoration: none;">Compartilhar</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="publi2" class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-2">
+                        <img id="perfilfeed" src="imgs/foto16.png" style="width:60px;height:auto;border-radius:60px;">
+                        </div>
+                        <b id="nomefeed">
+                        <a href="#" class="mt-3 mx-1" style="color:#365899;font-size:18px;">Maria Rosária</a></b>
+                        <span style="font-size: 18px;">estava com <b style="color:#365899;font-size: 18px;">Ademiro Barbosa</b></span><br>
+                    </div>
+                    <div id="linhafeed" class="row">
+                      <span  class="text-muted" style="margin-left: 7px">2h · <i class="fas fa-user-friends"></i></span>
+                    </div>
+                    <div class="row">
+                      <span class="mx-3" style="margin-top: 12px; font-size: 24px" >É tão bom ser casada com um cara bonito e que te respeita... e olha que ele apoia o Bolsonaro kkkkkkkk</span>
+                    </div>
+                      <img class="mt-2" src="imgs/maria_e_marido.jpg" style="width:605px; height: auto;">
+                      <div id="react" class="row" style="margin-top: 5px">
+                        <img src="imgs/icon/uau.png" style="width:30px;height:30px;">
+                        <img src="imgs/icon/like.png" style="width:30px;height:30px;">
+                        <span class="text-muted">17</span>
+                      </div>
+                      <hr>
+                      <div id="curtir" class="row">
+                        <i class="far fa-thumbs-up" id="joia" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="like" href="" class="" style="font-size:17px;color:#606770;;text-decoration: none;">Curtir</a>
+                        <div class="col-1"></div>
+                        <i class="far fa-comment-alt mx-1" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="likes" href="#" class="mx-1" style="font-size:17px;color:#606770;;text-decoration: none;">Comentar</a>
+                        <div class="col-1"></div>
+                        <i class="fas fa-share mx-1" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="likes" href="#" class="mx-1" style="font-size:17px;color:#606770;;text-decoration: none;">Compartilhar</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="publi2" class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-2">
+                        <img id="perfilfeed" src="imgs/foto.png" style="width:60px;height:auto;border-radius:60px;">
+                        </div>
+                        <b id="nomefeed">
+                        <a href="#" class="mt-3 mx-1" style="color:#365899;font-size:18px;">Ademiro Barbosa</a></b>
+                        <span style="font-size: 18px;">publicou <b style="color:#365899;font-size: 18px;">uma foto</b></span><br>
+                    </div>
+                    <div id="linhafeed" class="row">
+                      <span  class="text-muted" style="margin-left: 7px">5h · <i class="fas fa-user-friends"></i></span>
+                    </div>
+                    <div class="row">
+                      <span class="mx-3" style="margin-top: 12px; font-size: 24px" >Meu amigo Nivaldo. Apoia o Lula mas é gente boa</span>
+                    </div>
+                      <img class="mt-2" src="imgs/bebo.jpg" style="width:605px; height: auto;">
+                      <div id="react" class="row" style="margin-top: 5px">
+                        <img src="imgs/icon/like.png" style="width:30px;height:30px;">
+                        <span class="text-muted">3</span>
+                      </div>
+                      <hr>
+                      <div id="curtir" class="row">
+                        <i class="far fa-thumbs-up" id="joia" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="like" href="" class="" style="font-size:17px;color:#606770;;text-decoration: none;">Curtir</a>
+                        <div class="col-1"></div>
+                        <i class="far fa-comment-alt mx-1" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="likes" href="#" class="mx-1" style="font-size:17px;color:#606770;;text-decoration: none;">Comentar</a>
+                        <div class="col-1"></div>
+                        <i class="fas fa-share mx-1" style="font-size: 1.5em;color:#606770"></i>
+                        <a id="likes" href="#" class="mx-1" style="font-size:17px;color:#606770;;text-decoration: none;">Compartilhar</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+      <div id="chat">
+        <div class="card" style="background-color:#e9ebee;">
+          <b class="text-muted mx-3 mt-3" style="font-size: 20px;">Contatos</b>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto7.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Hernesto Miranda</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto4.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Thifany x Ketelen</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto8.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Adrièllyyy Fànqueràà</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto5.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Xing Linga</a></p>
+              </div>
+              <div class="col-2"></div>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto6.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Gioconda Aregazzi</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto2.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Klinvers Klonis</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto3.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">João Kléber</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto9.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Seu Jorge</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto10.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Réuri Póter</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto11.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Microcefalius Batista</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+
+
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto16.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Maria Rosária</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+
+              
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto13.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Bréqui Pauer</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+
+              
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto15.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Xerifão Batisto</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+
+              
+           </div>
+
+           <div class="row mt-2">
+            <div class="col-1">
+              <span>
+                  <img class="fotochat" src="imgs/foto12.png">
+                </span>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-7">
+                <p id="nomechat"><a href="#" class="mt-3" style="color:black;text-decoration: none;">Será quem?</a></p>
+              </div>
+              <div class="col-2"></div>
+              <span id="online" class="justify-content-end"></span>
+
+              
+           </div>
+
+           <div class="input-group">
+            <div class="input-group-prepend" id="icone">
+              <span class="input-group-text">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+            <input type="text" class="form-control" placeholder="Pesquisar">
+           </div>
+        </div>
+        
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Seu código vai aqui! -->
+
+
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/vendor/jquery-slim.min.js"></script>
+        <script src="assets/js/vendor/popper.min.js"></script>
+        <script src="dist/js/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/holder.min.js"></script>
+        <script>
+          Holder.addTheme('thumb', {
+            bg: '#55595c',
+            fg: '#eceeef',
+            text: 'Thumbnail'
+        });
+    </script>
+</body>
+</html>

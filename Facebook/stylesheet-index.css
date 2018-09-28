@@ -1,0 +1,94 @@
+/*Fonte*/
+
+@font-face 
+{font-family:"Facebook";src:url("fonts/FACEBOLF.eot?") 
+format("eot"),url("fonts/FACEBOLF.woff") 
+format("woff"),url("fonts/FACEBOLF.ttf") 
+format("truetype"),url("fonts/FACEBOLF.svg#FacebookLetterFaces") 
+format("svg");font-weight:normal;font-style:normal;}
+
+/*Fim - Fonte*/
+
+/*Botão "Entrar"*/
+
+#entrar:hover {
+	background-color: #3D5A99
+} 
+
+/*Botão no card de usuário*/
+
+#foto  {
+  position: relative;
+  width: 50%;
+}
+
+#foto  img {
+  width: 100%;
+  height: auto;
+}
+
+#foto #x {
+  position: absolute;
+  top: 7%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  padding: 4px 7.5px 4px 7.5px; 
+  background-color: #333333;
+  cursor: pointer;
+  border-radius: 80px;
+  font-size:1em;
+
+}
+
+#foto #x:hover {
+	font-size: 2em;
+	background-color: #FFFFFF;
+	color: #7F7F7F 
+} 
+
+#foto .nr {
+ 
+border: 1px solid #000;
+border-radius:30px;
+width:35px;
+height:35px;
+background-color: #FA3E3E;
+line-height:39px;
+box-shadow: 2px 2px 5px #999;
+position: absolute;
+top: 1%;
+left: 95%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+color: white;
+border: none;
+border-radius: 50px;	
+}
+
+#texto {
+	font-size: 22px;
+	margin-left: 11px;
+  margin-top: -20px;
+}
+
+/*Texto - Data de nascimento*/
+
+#tabela {
+	margin-top: -12px;
+}
+
+/*Caixinha Modal*/
+
+.modal-dialog {
+  position: absolute;
+  top: 140px;
+  right: 100px;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+}

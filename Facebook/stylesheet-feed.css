@@ -1,0 +1,308 @@
+/*Fonte*/
+
+@font-face 
+{font-family:"Facebook";src:url("fonts/FACEBOLF.eot?") 
+format("eot"),url("fonts/FACEBOLF.woff") 
+format("woff"),url("fonts/FACEBOLF.ttf") 
+format("truetype"),url("fonts/FACEBOLF.svg#FacebookLetterFaces") 
+format("svg");font-weight:normal;font-style:normal;}
+
+/*Fim - Fonte*/
+
+/*LogoBranca*/
+
+.logobranca 
+{
+	margin-left:120px; 
+}
+
+/* Fim-LogoBranca*/
+
+/*Foto Nome*/
+.nomefoto
+{
+	margin-top: 10px;
+}
+
+/*Texto Foto */
+.textofoto 
+{
+	margin-left: 40px;
+	margin-top: -25px;
+}
+
+/*Icone Foto */
+.iconefoto 
+{
+	color:#36538d;
+	margin-left: 220px;
+	margin-top: -27px;
+}
+
+/*Icone*/
+#botaoamigos
+{
+	margin-left:-13px;		
+}
+
+#icon
+{
+	margin-left: -6px;
+	color: #0D1423;
+}
+
+#botao
+{
+	margin-left:-19px;
+}
+
+#botaosino
+{
+	margin-left: -15px;
+	padding-right: 2px;
+}
+
+#divisor
+{
+	
+}
+
+#botaoajuda
+{
+	margin-left:-10px;
+}
+
+/*Corpo Feed*/
+#fotofeed
+{
+	margin-left: 67px;
+	padding-right: 7px;
+}
+
+#iconfeed
+{
+	margin-left: 67px;
+	padding-right: 7px;
+	margin-top: -10px;
+}
+
+#fotoinput
+{
+	margin-left: -15px;
+}
+
+#inputfeed
+{
+	margin-top: -60px;
+	margin-left: 80px;
+}
+
+#textoinput
+{
+	font-size: 25px;
+	font-family: tahoma;
+	border: none;
+	resize:none;
+}
+ #atalhos
+
+ {
+ 	margin-left: -78px;
+ }
+
+.container-fluid
+
+{
+	width: 100%;
+}
+
+#colunaprincipal
+
+{
+	margin-left: -80px;
+}
+
+#stories
+
+{
+	margin-right: 30px;
+	width: 410px
+}
+
+#chat
+
+{
+	
+	width: 350px;
+}
+
+.circulo {
+  height: 80px;
+  width: 80px;
+  background-color: #ECEDEE;
+  border-radius: 100%;
+  border: solid #9C9C9C 0.5px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#mais
+{
+	width: 35px;
+	height: 35px;
+	line-height:208px;
+	margin-left: -323px;
+	position: absolute;
+	font-size: 55px;
+	color:#0066ff ;
+	top: 1%;
+	left: 95%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)	
+}
+
+#tabela 
+
+{
+	margin-top: 10px;
+	margin-left: 15px; 
+	font-size:18px;
+}
+
+#linha1
+
+{
+	margin-left: 115px;
+	margin-top: -50px;
+	font-size: 17px;
+}
+
+#linha2
+
+{
+	font-size: 17px;
+	margin-left: 115px;
+	margin-top: -45px;
+}
+
+#nomestorie
+
+{
+	margin-top: 20px;
+	margin-left: 15px; 
+	font-size:18px;
+}
+
+.fotostorie
+
+{
+	border: solid #0066ff 4px; ;
+	margin-left: 20px;
+	border-radius: 100%;
+	width:80px;
+	height: auto;
+}
+
+#linhafoto
+{
+	margin-left: 115px;
+	margin-top: -35px;
+	font-size: 17px;
+}
+
+.fotochat
+
+{
+	margin-left: 15px;
+	border-radius: 100%;
+	width:40px;
+	height: auto;
+}
+
+#nomechat
+
+{
+	margin-left:10px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: black;
+	font-size: 18px
+}
+
+#online {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 100%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+#nomefeed
+
+{
+	margin-left: -15px;
+	font-size: 18px;
+}
+
+#linhafeed
+{
+	margin-left: 73px;
+	margin-top: -25px;
+}
+
+#curtir
+{
+	margin-left: 60px;
+}
+
+#joia
+{
+	margin-left: 15px;
+	margin-top: -3px;
+}
+
+#like
+{
+	margin-left: 5px;
+	margin-top:-2px;
+}
+
+#likes
+{
+	margin-top:-5px;
+}
+
+#react
+{
+	margin-top: 2px;
+	margin-left:1px;
+}
+
+#lang
+
+{
+	margin-left: 10px;
+	width: 45px;
+	height: 45px;
+	border:solid 1px gray;
+}
+
+#langlinha1
+{
+	margin-top: -15px;
+}
+
+#add
+{
+	color: gray;
+	margin-top: 8px;
+}
+
+#share
+
+{
+	margin-left: 100px;
+}
